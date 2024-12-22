@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #888383;
+    font-size: 16px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .fa-facebook {
+    color: #4267b2;
+  }
+  
+  .fa-youtube {
+    color: #ff0000;
+  }
+  
+  .followers {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  span {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+  }
+  
